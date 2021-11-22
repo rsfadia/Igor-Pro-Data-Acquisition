@@ -1,4 +1,10 @@
-﻿	#pragma TextEncoding = "UTF-8"	
+// This program controls a Keithley 2400 Sourcemeter and a Keithley 485 Picoammeter. \
+// The sourcemeter runs a voltage sweep across our device. 
+// The ammeter is attached to a silicon photodetector, detecting light from LED to current.
+// program plots current-voltage and photocurrent(from photodetector)-voltage plot. 
+// rsfadia@ucsc.edu
+
+#pragma TextEncoding = "UTF-8"	
 #pragma rtGlobals=1		// Use modern global access method and strict wave access.
 
 LoadWave/J/D/W/K=0 "Macintosh HD:Users:suecarter:Desktop:PhotoDiode calibration Data.txt"
